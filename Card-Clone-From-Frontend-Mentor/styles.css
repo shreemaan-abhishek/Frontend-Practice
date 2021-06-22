@@ -1,0 +1,99 @@
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+
+
+
+#card{
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 7px;
+    margin: 0;
+}
+.description{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 50px;
+    margin-right: 120px;
+
+}
+
+.stats>.lexend{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.highlight{
+    color: hsl(277, 64%, 61%);
+}
+
+.inter{
+    font-family: inter;
+    font-weight: 700;
+}
+
+#img-holder {
+    border-radius: 0 7px 7px 0;
+    padding: 0;
+    text-align: right;
+    background-color:hsl(277, 64%, 61%)
+}
+
+#stats-row{
+    margin: 50px 0 0 15px ;
+}
+
+.image{
+    border-radius: 0 7px 7px 0;
+    opacity: 0.45;
+    object-fit: cover;
+    height: 100%; 
+    width: 100%;
+}
+
+.header-text{
+    color: white;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom:30px;
+    margin-right: 50px;
+    
+}
+
+.lexend{
+    font-family: 'Lexend Deca';
+}
+
+@media (max-width:991px) {
+    #img-holder{
+        border-radius: 7px 7px 0 0;
+    }
+
+    .image{
+        border-radius: 7px 7px 0 0;
+    }
+
+    .main-container{
+        text-align: center;
+    }
+}
+
+.stats{
+    margin: 30px 20px;
+}
+
+.header {
+    /* padding: 8%; */
+    margin-top: 20px;
+    
+}
+
+.main-container{
+    background-color: hsl(233, 47%, 7%);
+    padding: 8%;
+}
+
