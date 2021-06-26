@@ -39,7 +39,16 @@
 
 .minute{
     width: 100px;
+    position: absolute;
     margin: 148px 0 0 50px;
     transform: rotate(70deg);
     transform-origin: 100%;
+}
+
+.second{
+    width: 125px;
+    position: absolute;
+    margin: 148px 0 0 25px;
+    transform: rotate(10deg);
+    transform-origin: 100%; 
 }
