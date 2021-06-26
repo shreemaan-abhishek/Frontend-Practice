@@ -1,20 +1,41 @@
 .main-container{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .border{
-    display: flex;
-    justify-content: left;
+    /* display: flex;
+    justify-content: left; */
     border-radius: 100%;
     border: 5px solid;
     width: 300px;
     height: 300px;
+    margin: auto;
 }
 
-.division{
+/* .division{
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     width: 150px;
     height: 300px;
+} */
+
+.hand{
+    border: 2px solid;
+    height: 0;
+    margin: auto;
+}
+
+/* .hour{
+    width: 75px;
+    transform: rotate(170deg);
+    transform-origin: 100%;
+} */
+
+.minute{
+    width: 100px;
+    /* transform: rotate(70deg);
+    transform-origin: 100%; */
 }
