@@ -36,6 +36,6 @@
     position: absolute;
     border: 1px solid red;
     margin: 148px 0 0 25px;
-    transform: rotate(10deg);
+    transform: rotate(10.5deg);
     transform-origin: 100%; 
 }
