@@ -25,6 +25,7 @@
 .hand{
     border: 2px solid;
     height: 0;
+    box-sizing: border-box;
     margin: auto;
 }
 
@@ -36,6 +37,7 @@
 
 .minute{
     width: 100px;
-    /* transform: rotate(70deg);
-    transform-origin: 100%; */
+    margin: 148px 0 0 50px;
+    transform: rotate(70deg);
+    transform-origin: 100%;
 }
