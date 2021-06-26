@@ -29,11 +29,13 @@
     margin: auto;
 }
 
-/* .hour{
+.hour{
     width: 75px;
+    position: absolute;
+    margin: 148px 0 0 75px;
     transform: rotate(170deg);
     transform-origin: 100%;
-} */
+}
 
 .minute{
     width: 100px;
